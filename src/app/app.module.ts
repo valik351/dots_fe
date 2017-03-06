@@ -32,6 +32,7 @@ import { UserPreviewComponent } from './components/user-preview/user-preview.com
 import { CourseBuyComponent } from './components/course-buy/course-buy.component';
 import { CourseBuyResultComponent } from './components/course-buy-result/course-buy-result.component';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     UserPreviewComponent,
     CourseBuyComponent,
     CourseBuyResultComponent,
-    DialogComponent
+    DialogComponent,
+    HomeComponent
   ],
   imports: [
     FlexLayoutModule,
