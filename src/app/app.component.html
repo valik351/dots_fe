@@ -11,5 +11,9 @@
     <button md-menu-item>Option 1</button>
     <button md-menu-item>Option 2</button>
   </md-menu>
-
+  <md-grid-list cols="3">
+    <md-grid-tile *ngFor="let course of courses">
+      <app-course-preview [course]="course"></app-course-preview>
+    </md-grid-tile>
+  </md-grid-list>
 </div>
